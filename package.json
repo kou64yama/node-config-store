@@ -1,0 +1,30 @@
+{
+  "name": "config-store",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- *.test.js",
+    "test:watch": "mocha --watch -R min *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kou64yama/node-config-store.git"
+  },
+  "keywords": [],
+  "author": "YAMADA Koji <kou64yama@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kou64yama/node-config-store/issues"
+  },
+  "homepage": "https://github.com/kou64yama/node-config-store#readme",
+  "dependencies": {
+    "flat-json": "kou64yama/node-flat-json#v0.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.3.1",
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.2"
+  }
+}
