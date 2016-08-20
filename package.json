@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha -- *.test.js",
-    "test:watch": "mocha --watch -R min *.test.js"
+    "test:watch": "mocha --watch -R min *.test.js",
+    "lint": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,11 @@
     "eslint": "^3.3.1",
     "istanbul": "^0.4.4",
     "mocha": "^3.0.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true
+    }
   }
 }
