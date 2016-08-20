@@ -1,5 +1,7 @@
 # ConfigStore
 
+[![Build Status](https://travis-ci.org/kou64yama/node-config-store.svg?branch=master)](https://travis-ci.org/kou64yama/node-config-store)
+
 ## Installation
 
 ```
